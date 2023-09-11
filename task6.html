@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Task 1</title>
+    <style>
+      td,
+      th {
+        border: 1px solid black;
+        border-radius: 10px;
+      }
+      #tdp{
+        border: 1px solid black;
+        border-radius: 10px;
+      }
+      #t1 {
+        border-color: lightgreen;
+        border-radius: 3px;
+      }
+      .below{
+      width: 80px;
+      height: 40px;
+      border-color: rgba(132, 182, 25, 0.669);
+      border-width: 3px;
+      }
+    </style>
+  </head>
+  <body>
+    <table bgcolor="87CEEB" bordercolor="white" height="150" width="1000" id="tdp">
+      <tr>
+        <th align="center">Firstname</th>
+        <th align="center">Lastname</th>
+        <th align="center">Age</th>
+      </tr>
+      <tr>
+        <td>Will</td>
+        <td>Smith</td>
+        <td>50</td>
+      </tr>
+      <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>94</td>
+      </tr>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>80</td>
+      </tr>
+    </table>
+    <br />
+    <br />
+    <table cellpadding="5" cellspacing="7" bordercolor="white" style="margin-top: 20px; margin-left: 350px; margin-right: 150px;">
+    <!-- border="10px" margin-top: 20px-->
+    <tbody>
+      <tr>
+      <td class="below" style="border-radius: 7px;"></td>
+      <td class="below" style="border-radius: 10px;"></td>
+      <td class="below" style="border-radius: 16px;"></td>
+      </tr>
+      <tr>
+      <td class="below" style="border-radius: 12px;"></td>
+      <td class="below" style="border-radius: 2px;"></td>
+      <td class="below" style="border-radius: 18px;"></td>
+      </tr>
+      <tr>
+        <td class="below" style="border-radius: 50%;"></td>
+        <td class="below" style="border-radius: 3px;"></td>
+        <td class="below" style="border-top-right-radius: 14p x; border-bottom-left-radius: 14px; border-top-left-radius: 3px; border-bottom-right-radius: 3px;"></td>
+      </tr>
+      </tbody> 
+    </body>
+</html>
